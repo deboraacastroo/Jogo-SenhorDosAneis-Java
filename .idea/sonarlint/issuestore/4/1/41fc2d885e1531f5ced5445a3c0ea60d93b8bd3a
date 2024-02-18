@@ -1,0 +1,14 @@
+
+V
+java:S1854"9Remove this useless assignment to local variable "troll".(ååæ8¯”şÈÛ1
+\
+java:S1854":Remove this useless assignment to local variable "humano".(Õ™çßşÿÿÿÿ8¯”şÈÛ1
+\
+java:S1854	":Remove this useless assignment to local variable "hobbit".(Ğß×ïıÿÿÿÿ8¯”şÈÛ1
+M
+java:S1481	"+Remove this unused "hobbit" local variable.(Ğß×ïıÿÿÿÿ8°”şÈÛ1
+M
+java:S1481"+Remove this unused "humano" local variable.(Õ™çßşÿÿÿÿ8°”şÈÛ1
+G
+java:S1481"*Remove this unused "troll" local variable.(ååæ8°”şÈÛ1
+F	java:S106"+Replace this use of System.out by a logger.(á› 8±”şÈÛ1
