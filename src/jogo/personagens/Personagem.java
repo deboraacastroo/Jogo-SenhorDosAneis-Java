@@ -40,4 +40,6 @@ public abstract class Personagem {
     public String descricaoPersonagem(){
         return this.getNome() + " (Vida=" + this.getPontosVida() + " Armadura=" + this.getArmadura() + ")";
     }
+
+    public abstract String descricao();
 }

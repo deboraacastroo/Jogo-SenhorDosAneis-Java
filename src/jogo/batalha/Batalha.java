@@ -12,6 +12,7 @@ public class Batalha {
     private ArrayList<Besta> listaBesta = new ArrayList<>();
 
     public Batalha() {
+        /*
         listaHerois.add(new Elfo("Legolas", 150, 30));
         listaHerois.add(new Humano("Aragorn", 150, 50));
         listaHerois.add(new Humano("Boromir", 100, 20));
@@ -23,6 +24,8 @@ public class Batalha {
         listaBesta.add(new Orque("Shagrat", 220, 50));
         listaBesta.add(new Troll("Uglúk", 120, 30));
         listaBesta.add(new Troll("Mauhúr", 100, 30));
+
+         */
 
     }
 
@@ -57,10 +60,37 @@ public class Batalha {
             }
             contador++;
         }
-        if (listaHerois.isEmpty() && !listaBesta.isEmpty()) {
+        if(listaBesta.isEmpty() && listaHerois.isEmpty()){
+            System.out.println("Insira elementos!");
+        }else if (listaHerois.isEmpty() && !listaBesta.isEmpty()) {
             System.out.println("Vitória das Bestas");
         } else {
             System.out.println("Vitória dos Heróis");
         }
+    }
+
+
+    public ArrayList<Heroi> getListaHerois() {
+        return listaHerois;
+    }
+
+    public ArrayList<Besta> getListaBesta() {
+        return listaBesta;
+    }
+
+    public void addListaHerois(Heroi heroi){
+        listaHerois.add(heroi);
+    }
+
+    public void addListaBestas(Besta besta){
+        listaBesta.add(besta);
+    }
+
+    public void resetListaHerois() {
+        this.listaHerois = new ArrayList<>();
+    }
+
+    public void resetListaBestas() {
+        this.listaBesta = new ArrayList<>();
     }
 }
